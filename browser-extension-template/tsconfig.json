@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "target": "es2015",
+      "lib": ["es6", "dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "strictNullChecks": false,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "module": "esnext",
+      "declaration": false, // 生成相应的.d.ts文件
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "react",
+      "baseUrl": "src",
+      "outDir": "build",
+      "noImplicitAny": false,
+    },
+    "exclude": ["node_modules"],
+  }
+  

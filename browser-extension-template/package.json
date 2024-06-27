@@ -1,0 +1,44 @@
+{
+  "name": "browser-extension-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch --mode=development",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@types/antd": "^1.0.0",
+    "@types/node": "^13.11.0",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "ahooks": "^3.7.8",
+    "antd": "^5.6.3",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.193",
+    "@types/lodash": "^4.14.194",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.4",
+    "mini-css-extract-plugin": "^2.2.2",
+    "node-polyfill-webpack-plugin": "^2.0.0",
+    "node-sass": "^9.0.0",
+    "prettier": "^2.7.1",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.63.6",
+    "sass-loader": "13.3.2",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.3.1",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
