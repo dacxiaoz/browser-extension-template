@@ -1,2 +1,2 @@
 # browser-extension
-浏览器插件模版 webpack + react + TS + antd
+浏览器插件模版 V3版本 webpack + react + TS + antd 
