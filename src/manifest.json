@@ -29,12 +29,12 @@
     ],
     "action": {
       "default_title": "浏览器插件扩展模版",
-      "default_popup": "popup.html"
+      "default_popup": "html/popup.html"
     },
     "content_security_policy": {
       "extension_pages": "script-src 'self'; object-src 'self'"
     },
     "sandbox": {
-      "pages": ["https://*.zhiyitech.cn"]
+      "pages": []
     }
 }
