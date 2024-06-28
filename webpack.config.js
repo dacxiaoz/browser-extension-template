@@ -12,7 +12,7 @@ module.exports = (env, options) => {
       target: 'web',
       devtool: "source-map",
       entry: {
-        // temp: path.resolve(__dirname, 'src/pages/temp/main.tsx'),
+        temp: path.resolve(__dirname, 'src/pages/temp/main.tsx'),
         popup: path.resolve(__dirname, 'src/pages/popup/main.tsx'),
       },
       output: {
@@ -31,10 +31,10 @@ module.exports = (env, options) => {
           template: './src/html/popup.html',
           filename: 'html/popup.html',
         }),
-        // new HtmlWebpackPlugin({
-        //   template: './src/html/temp.html',
-        //   filename: 'html/temp.html',
-        // }),
+        new HtmlWebpackPlugin({
+          template: './src/html/temp.html',
+          filename: 'html/temp.html',
+        }),
       ],
       optimization: {
         minimize: false,
